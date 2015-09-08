@@ -124,14 +124,12 @@ function playToFive() {
                 playerWins += 0;
                 computerWins += 0;
                 console.log('\n IT\'S A TIE, TRY AGAIN \n');
-            }else if (playerMove != 'rock' || playerMove != 'scissors' || playerMove != 'paper') {
+            } else if (playerMove != 'rock' || playerMove != 'scissors' || playerMove != 'paper') {
         console.log('\n ERROR! Wrong Input \n')
             }
   
 // After each 'round', display some text in the console indicating who played what, who won, and what the current scoreboard looks like.
 
-
-//INSERT if statement for log
     console.log('Player chose: ' + playerMove + '\n'
             + 'Computer chose: ' + computerMove + '\n'
             + 'Score: Player ' + playerWins 
